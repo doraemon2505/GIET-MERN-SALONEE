@@ -1,0 +1,63 @@
+/* p{
+    background-color: rgba(221, 230, 164, 0.861);
+} 
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+}
+
+.Doraemon{
+    background-color: rgb(231, 144, 234);
+}
+h3{
+    background-color: chartreuse;
+}
+b,strong,p{
+    background-color: cadetblue;
+}
+*{
+    color: rgb(56, 7, 82);
+}  */
+
+/* .parent p{
+    background-color: aquamarine;
+}
+
+.parent >p{
+    background-color: cornflowerblue;
+} */
+ .parent +p{
+    background-color: darkkhaki;
+ }
+
+ .parent ~p{
+    background-color: rgb(109, 171, 109);
+ }
+ .learn-pseudo{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+ }
+ .learn-pseudo:hover{
+    background-color: brown;
+ }
+ .learn-pseudo:active{
+    background-color: chartreuse;
+ }
+input:focus{
+    background-color: darksalmon;
+}
+
+ul li:first-child{
+    background-color: deepskyblue;
+}
+ul li:last-child{
+    background-color: darkgray;
+}
+
+ul li:nth-child(2){
+    background-color: rgb(161, 219, 193);
+}
+ 

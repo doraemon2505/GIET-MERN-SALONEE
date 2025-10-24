@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+    <style>
+        h2{
+            color: rgb(88, 37, 37);
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- inline css -->
+    <h1 style="background-color: aqua;">SALONEE</h1>
+    <h2>RITU</h2>
+
+    <P>
+        I am a good girl
+    </P>
+
+    <!-- selecter -->
+     <!-- 1.simple
+             =>
+          2.combinator
+          3.attribute
+          4.pseudo class
+          5.pseudo element -->
+
+          <div id="box"></div>
+          <p class="Doraemon"> There are some fruits</p>
+          <h3>Content</h3>
+          <b>This is bold</b>
+          <strong>This is strong</strong>
+          <p>Today i am hungry</p>
+          <!-- =>combinator selector
+
+               descedent selector(space)
+               direct child selector(>)
+               adjacent sibling selector(+)
+               general sibling(~)
+               
+           -->
+               <div class="parent">
+                <p>child one</p>
+                <div class="child">
+                    <p>indirect child</p>
+                </div>
+               </div>
+
+               <p>first sibling</p>
+               <p>second sibling</p>
+               <p>third sibling</p>
+
+               <!-- pseudo class selector 
+                false
+                hidden
+
+                1.hover(cursor)
+                2.active(click)
+                3.focus(use in input)
+                4.first child
+                5.last child
+                6.nth child
+                
+               -->
+                <div class="learn-pseudo"></div>
+                <br>
+                <input type="text" placeholder="Name">
+                <br>
+                <br>
+                <input type="text" placeholder="Age">
+
+                <ul>
+                    <li>fist child</li>
+                    <li>second child</li>
+                    <li>third child</li>
+                    <li>fourth child</li>
+                    <li>fifth child</li>
+                </ul>
+
+
+
+</body>
+</html>
