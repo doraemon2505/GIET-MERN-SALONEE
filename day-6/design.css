@@ -81,3 +81,19 @@ ul{
     background-color: rgb(58, 120, 91);
     cursor: pointer;
 }
+.move{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    /* transition-delay: 2s; */
+}
+/* ul li:hover {
+   color: brown;
+   cursor: pointer;
+} */
+ .move:hover{
+    transform: translate(400px);
+ }
